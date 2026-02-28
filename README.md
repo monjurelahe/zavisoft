@@ -1,17 +1,45 @@
-# sliver
+# Flutter Ecommerce Daraz Style Technical Task from – Zavisoft
 
-A new Flutter project.
+This project is a Flutter technical assessment implementation.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Ecommerce style home screen
+- Search bar in SliverAppBar
+- Horizontally swipeable banner
+- Sticky category tab bar
+- Tabs are switchable by:
+  - tap
+  - horizontal swipe
+- Product list loaded from FAKEAPI
+- State management using BLoC
+- Pull to refresh 
 
-A few resources to get you started if this is your first Flutter project:
+## Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- BLoC architecture
+- Repository pattern
+- Feature based folder structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# zavisoft
+## Tech stack
+
+- Flutter
+- flutter_bloc
+- REST API
+- CustomScrollView + Slivers
+
+## Folder structure
+
+lib/
+- features/products
+- ui/home
+
+## How to run
+
+1. flutter pub get
+2. flutter run
+
+## Notes
+
+The project follows a mid level flutter dev skills and clean architecture style.
+All UI components are separated by responsibility.
