@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'app_providers.dart';
+import 'core/app_providers.dart';
 
 void main() {
   runApp(const AppProviders());

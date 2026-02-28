@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'ui/login/login_screen.dart';
-import 'ui/home/home_screen.dart';
+import '../views/home/home_screen.dart';
 
 class AppRoutes extends StatelessWidget {
   const AppRoutes({super.key});
@@ -10,10 +9,9 @@ class AppRoutes extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
 
-      initialRoute: '/login',
+      initialRoute: '/home',
 
       routes: {
-        '/login': (_) => const LoginScreen(),
         '/home': (_) => const HomeScreen(),
       },
     );

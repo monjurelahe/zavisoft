@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'core/api_client.dart';
-import 'features/auth/auth_bloc.dart';
-import 'features/auth/auth_repository.dart';
-import 'features/products/product_bloc.dart';
-import 'features/products/product_repository.dart';
+import 'api_client.dart';
+import '../features/auth/auth_bloc.dart';
+import '../features/auth/auth_repository.dart';
+import '../features/products/product_bloc.dart';
+import '../features/products/product_repository.dart';
 import 'app_routes.dart';
 
 class AppProviders extends StatelessWidget {
